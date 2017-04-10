@@ -91,13 +91,30 @@ header {
 }
 
 .img-work{
-  width: 1000px;
+  width: 80%;
   text-align: center;
+  margin:20px auto;
 }
 
 .imagen-work {
   display: inline-block;
+  position: relative;
+  margin:2%;
 }
+
+span.span-name {
+  position: absolute;
+  display: inline-block;
+  width: 60%;
+  bottom:-14%;
+  left:60px;
+}
+
+.work-div{
+  display:inline-block;
+  position: relative;
+  margin: 2%;
+  }
 
 footer{
   text-align: center;

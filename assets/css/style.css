@@ -129,7 +129,7 @@ span.span-name {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 30px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -157,7 +157,7 @@ span.span-name {
     text-align: center;
     color: black;
     padding: 10px 0;
-    height: 150px;
+    height: 60px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -183,7 +183,7 @@ span.span-name {
 /* The Close Button */
 #close {
     position: absolute;
-    top: 76px;
+    top: 18px;
     right: 339px;
     color: rgb(128, 247, 184);
     font-size: 53px;

@@ -1,18 +1,19 @@
+var proyectos=["tayman group","nalia organics","brass coq","sungenre","mitragyna speciosa","foam king","volition","amliving","sherwood"];
 function crearProducto(event){
   var panel=document.getElementById('misImg');
   var fragment=document.createDocumentFragment();
-  var tamano=10;
-  for(var i=1;i<tamano;i++){
+  var tamano=9;
+  for(var i=0;i<tamano;i++){
     var div=document.createElement('div');
     div.className="work-div";
     var img=document.createElement('img');
     img.className="myImg myWork";
-    img.src="assets/images/img-"+ i + ".jpg";
-    img.alt="Proyecto"+i;
+    img.src="assets/images/img-"+ (i+1) + ".jpg";
+    img.alt=proyectos[i];
     img.width="300";
     var span=document.createElement('span');
-    span.className="span-name";
-    span.innerHTML="Nombre del Producto" + i;
+    span.className="span-name text-uppercase";
+    span.innerHTML=proyectos[i];
 
     div.appendChild(img);
     div.appendChild(span);

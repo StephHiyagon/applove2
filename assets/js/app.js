@@ -12,7 +12,7 @@ function crearProducto(event){
     img.width="300";
     var span=document.createElement('span');
     span.className="span-name";
-    span.innerHTML="Nombre del Producto";
+    span.innerHTML="Nombre del Producto" + i;
 
     div.appendChild(img);
     div.appendChild(span);

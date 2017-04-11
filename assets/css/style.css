@@ -145,6 +145,7 @@ span.span-name {
     display: block;
     width: 80%;
     max-width: 700px;
+    border:12px solid white;
 }
 
 /* Caption of Modal Image */
@@ -154,9 +155,11 @@ span.span-name {
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: white;
+    color: black;
     padding: 10px 0;
     height: 150px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Add Animation */
